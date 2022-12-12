@@ -114,7 +114,11 @@ zips = pd.read_csv('uszips.csv')
 
 zips
 
-Output: https://user-images.githubusercontent.com/54153457/207179033-bd0f0489-3e0e-4059-a09d-01d82ee435e7.mov
+Output: 
+
+https://user-images.githubusercontent.com/54153457/207181221-da9a02e3-aa6a-4a50-8132-29c302e24987.mov
+
+
 
 # Selecting data from New York and Neighbouring states
 
