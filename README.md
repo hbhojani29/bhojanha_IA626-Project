@@ -97,7 +97,9 @@ income = pd.read_csv('Income.csv')
 
 income
 
-Output: [![Alternate Text]({image-url})]({video-url} "Link Title")
+Output: [![Alternate Text]({image-url})]({video-url} "https://github.com/hbhojani29/bhojanha_IA626-Project/blob/main/final%20project%20-%206.mov")
+
+
 
 
 
