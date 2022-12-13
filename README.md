@@ -281,6 +281,47 @@ Output:
 
 https://user-images.githubusercontent.com/54153457/207179728-2e1ae946-0971-4e57-aacb-837ac38e9338.mov
 
+#  Plotting a Heatmap of sold houses in New York with Latitude and longitude using Folium 
+
+Code: 
+
+import folium
+
+from folium.plugins import HeatMap
+
+map_hooray = folium.Map(location=[40.74173 ,-74.00037],
+
+                    zoom_start = 2, min_zoom=2) 
+
+heatmap = final2[final2['state_name']=='New York'] 
+
+heatmap = heatmap[heatmap['status']=='sold'] 
+
+heatmap = heatmap[['lat', 'lng']] 
+
+
+    
+    
+folium.CircleMarker([40.74173 ,-74.00037],
+
+                    radius=50,
+                    
+                    popup='Homicide',
+                    
+                    color='red',
+                    
+                    ).add_to(map_hooray) 
+    
+heatmap_data = [[row['lat'],row['lng']] for index, row in heat_df.iterrows()]
+
+HeatMap(heat_data, radius=10).add_to(map_hooray) 
+
+map_hooray 
+
+Output: <img width="1010" alt="final project 17" src="https://user-images.githubusercontent.com/54153457/207197822-6df817c9-d82c-46c2-a20e-ee60ef54a1cd.png">
+
+
+
 # Data Visualization using Power BI
 
 1. Plotting Average price by per capita income using line graph
