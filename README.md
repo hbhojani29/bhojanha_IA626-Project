@@ -281,16 +281,27 @@ Output:
 
 https://user-images.githubusercontent.com/54153457/207179728-2e1ae946-0971-4e57-aacb-837ac38e9338.mov
 
+# Data Visualization using Power BI
+
+1. Plotting Average price by per capita income using line graph
+![h1](https://user-images.githubusercontent.com/54153457/207184235-406ebc5d-5dc2-4ffb-ad20-7c6e680738b9.jpeg)
+
+
+
+2. Plotting of Average Per Capita Income and Average Price by Zipcodes using Area Chart
+![h2](https://user-images.githubusercontent.com/54153457/207184438-083ab327-4ff7-4b43-b826-b3bb12bea729.jpeg)
 
 
 
             
+3. Plotting average Pirce and Average Per Capita Income by State using Clustered Column Chart
+![h3](https://user-images.githubusercontent.com/54153457/207184466-15b11ba4-1d71-4582-af7d-a8c83944fcf1.jpeg)
 
 
 
 
-
-
+4. Plotting Average House Size and Average Price by State using Area Chart
+![h4](https://user-images.githubusercontent.com/54153457/207184483-621ce85d-dd4a-4680-a8b3-91a9652c4690.jpeg)
 
 
 
