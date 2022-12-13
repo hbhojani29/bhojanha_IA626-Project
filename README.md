@@ -250,7 +250,6 @@ f, ax = plt.subplots(figsize=(11, 9))
 cmap = sns.palette="vlag"
 
 sns.heatmap(correlation_data, mask=mask, cmap=cmap, vmax=.3, center=0,
-
             square=True, linewidths=.5, cbar_kws={"shrink": .5});
 
 Output: <img width="1012" alt="final project -14 " src="https://user-images.githubusercontent.com/54153457/207179624-90cf2243-1867-48ad-909a-b24e7c89cea4.png">
@@ -290,8 +289,7 @@ import folium
 from folium.plugins import HeatMap
 
 map_hooray = folium.Map(location=[40.74173 ,-74.00037],
-
-                    zoom_start = 2, min_zoom=2) 
+                            zoom_start = 2, min_zoom=2) 
 
 heatmap = final2[final2['state_name']=='New York'] 
 
@@ -303,14 +301,10 @@ heatmap = heatmap[['lat', 'lng']]
     
     
 folium.CircleMarker([40.74173 ,-74.00037],
-
                     radius=50,
-                    
                     popup='Homicide',
-                    
                     color='red',
-                    
-                    ).add_to(map_hooray) 
+                   ).add_to(map_hooray) 
     
 heatmap_data = [[row['lat'],row['lng']] for index, row in heat_df.iterrows()]
 
